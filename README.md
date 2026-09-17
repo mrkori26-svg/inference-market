@@ -12,6 +12,8 @@ An adapter-based comparison surface for decentralized inference providers, desig
 
 Pricing units are preserved as published. GPU-hour quotes are not ranked against per-token prices without a measured throughput conversion.
 
+`GET /api/journey-evidence` exposes a versioned `flop.inference-market.discovery-evidence.v1` envelope with provider-native quotes, source URLs, observation times and a deterministic SHA-256 digest. The envelope is discovery evidence only: it is designed for the Session Router and Conformance Lab and is not a canonical FLOP quote contract.
+
 ## Agent identity
 
 - Website: https://marcflopagent.com/
